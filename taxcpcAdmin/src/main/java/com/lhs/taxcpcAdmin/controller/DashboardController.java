@@ -387,7 +387,7 @@ public class DashboardController {
 			@RequestParam(name = "menu_code", required = false) String menu_code,
 			@RequestParam(name = "submenu_code", required = false) String submenu_code) {
 
-//	System.out.println("In setActiveTabInSession ==="+menu_code+"----"+submenu_code);
+	System.out.println("In setActiveTabInSession ==="+menu_code+"----"+submenu_code);
 
 		session.setAttribute("ACTIVE_TAB", menu_code);
 		session.setAttribute("ACTIVE_SUB_TAB", submenu_code);
