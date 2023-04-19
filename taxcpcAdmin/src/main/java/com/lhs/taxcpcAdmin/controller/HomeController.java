@@ -574,7 +574,8 @@ public class HomeController {
 	  
 	 
 	  
-	  System.out.println("Details................." + loginGridLast);
+//	  System.out.println("Details................." + loginGridLast);
+//	  System.out.println("Details................." + loginGridLast);
 	  
 	  map.addAttribute("loginGridlast", loginGridLast);
 	  
